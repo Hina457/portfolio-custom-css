@@ -1,0 +1,112 @@
+
+
+
+.main{
+    background-color: #333;
+    width: 100%;
+    height: 100px;
+}
+.back{
+    background-color:black;
+    width: 100%;
+    height: 800px;
+}
+.name{
+    color:yellow;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left:40px;
+    
+}
+:hover .name{
+    color:white;
+
+
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+list-style: none;
+display: inline-block;
+margin: 0 20px;
+}
+.navbar ul li a{
+text-decoration: none;
+color: azure;
+text-transform: uppercase
+}
+.navbar ul li :hover {
+background-color:lightgray;
+}
+.navbar ul li{
+    
+        box-shadow:0 14px 28px rgba(225, 230, 80, 0.25),0 10px 10px rgba(0, 0, 0, 0.22);
+    
+    
+}
+.bad{
+background-color: black;
+width: 100%;
+height: 700px;
+padding-top: 20px;
+
+}
+.img{
+border-radius: 50%;
+    border:8px solid goldenrod;
+    height:250px;
+    width: 250px;
+    margin-top:9%;
+    float: right;
+    margin-right: 20%;
+    box-shadow: 11px 12px 12px rgb(102, 102, 79)
+      
+        
+} 
+
+.heading{
+color:aliceblue;
+text-align: center;
+margin-top:10%;
+max-width: 60%;
+}
+.heading h4{
+color: yellow;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 50px;
+margin: 0px;
+}
+.heading h1{
+margin-top: 30px;
+font-size:70px ;
+margin: 0px;
+}
+.heading h5{
+font-size: 20px;
+margin-left: 5%;
+margin: 0px;
+}
+.heading .cn{
+width: 150px;
+height: 40px;
+background:yellow;
+border: none;
+margin-top: 10px;
+margin-left: 20px;
+font-size: 18px;
+border-radius: 10px;
+cursor: pointer;
+}
+.heading .cn {
+text-decoration: none;
+color: black;
+transition: .3s ease;
+
+}
+
+

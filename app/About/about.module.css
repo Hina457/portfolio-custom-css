@@ -1,0 +1,131 @@
+
+
+ 
+.skills {
+    width:60%;
+    padding: 20px;
+    background-color:black;
+    border-radius:80px;
+    box-shadow: -10px -10px 10px rgba(255, 255, 255, 0.2),
+    15px 15px 15px  rgba(243, 241, 106, 0.1);
+    margin-left:19%;
+    margin-top: 10%;
+ 
+ 
+}
+.mainpic{
+border-radius:100px;
+width: 400px;
+height:400px;
+
+}
+.mainpic {
+box-shadow: -10px -10px 10px rgba(255, 255, 255, 0.2),
+    15px 15px 15px  rgba(240, 238, 154, 0.1);
+
+}
+.mainpic:hover{
+    box-shadow:0 20px 28px rgba(244, 247, 108, 0.25),0 10px 10px rgba(0, 0, 0, 0.22);
+   }
+.skills h2, .always h2 {
+    text-align: center;
+}
+
+.skillslist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skillitem {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px 20px;
+    width: calc(20% - 40px);
+    text-align: center;
+    height:60px;
+   
+}
+
+.skillitem:hover {
+    background:yellow;
+}
+.always{
+    margin: 40px 0;
+    text-align:center;
+    font-size:15px;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left:50px;
+    margin-right:50px;
+    padding-top: 10px;
+  
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.portfolioitem {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    width: calc(30% - 40px);
+    box-shadow: 0 2px 5px rgba(246, 250, 35, 0.1);
+    transition: transform 0.2s;
+}
+
+.portfolioitem:hover {
+    transform: scale(1.05);
+}
+
+.portfolioitem img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+.Projects{
+    font-size:40PX;
+    text-align: center;
+    color: wheat;
+}
+.body{
+    background-color:black;
+    padding-top:2px;
+    
+}
+.skillhead{
+    color:white;
+    font-size: 40px;
+
+    text-align: center;
+}
+.skillhead :hover{
+    color: yellow;}
+    .footer{
+        width: 100%;
+        height: 70px;
+        background-color: #333;
+        padding-top:2px;
+    }
+    .footer p{
+        color: white;
+        text-align: center;
+        font-size:15px;
+        
+    }
+            
