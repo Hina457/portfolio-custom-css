@@ -1,6 +1,6 @@
 
 import Image from "next/image";
-import style from "../about/about.module.css";
+import style from "../About/about.module.css";
 import gul from "../public/gul2.png";
 import figma from "../public/figma.png"
 import Resume from "../public/Resume.png"
@@ -8,6 +8,7 @@ import scre from "../public/scre.png"
 import assignment from "../public/assignment table.png"
 import gul4 from "../public/gul4.png"
 import image from "../public/image.png";
+
 export default function About(){
     return(
       <div>

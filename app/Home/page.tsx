@@ -2,6 +2,7 @@
 import Image from "next/image";
  import style from "../Home/home.module.css";
  import pic from "../public/pic.jpeg";
+ import Link from "next/link";
  export default function Home(){
     return(
         <div>
@@ -14,7 +15,7 @@ import Image from "next/image";
     <h1>I am Hina Alvi</h1>
     <h5>i am Hina Alvi and i am fronthand developers i have 3 year Experience in this feild now continue artificial intelligence html,css,javascript,typescript</h5>
      <button className={style.cn}><a href="./About">About me</a></button>
-   </div> 
+   </div>
    
     </div>
     <div className={style.footer}>
