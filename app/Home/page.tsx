@@ -2,7 +2,7 @@
 import Image from "next/image";
  import style from "../Home/home.module.css";
  import pic from "../public/pic.jpeg";
- import Link from "next/link";
+
  export default function Home(){
     return(
         <div>
